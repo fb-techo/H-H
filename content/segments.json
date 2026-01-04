@@ -1,0 +1,51 @@
+{
+  "hotels": {
+    "title": "Luxury Hotel Solutions",
+    "subtitle": "Elevate Your Guest Experience",
+    "description": "Comprehensive GRMS and control systems for high-end hospitality properties. Seamless integration with Oracle/Opera PMS.",
+    "heroCta": "Explore Hotel Solutions",
+    "valueProps": [
+      "Centralized room control and automation",
+      "Deep Oracle/Opera PMS integration",
+      "Energy-efficient operations",
+      "Premium guest experience"
+    ]
+  },
+  "hospitals": {
+    "title": "Healthcare Technology Solutions",
+    "subtitle": "Enhancing Patient Care & Safety",
+    "description": "Nurse call systems, panic alarms, and digital signage designed for modern healthcare facilities.",
+    "heroCta": "Explore Healthcare Solutions",
+    "valueProps": [
+      "Reliable nurse call systems",
+      "Emergency response integration",
+      "Patient safety compliance",
+      "Modern healthcare workflows"
+    ]
+  },
+  "f-and-b": {
+    "title": "F&B Technology Platform",
+    "subtitle": "Transform Your Restaurant Operations",
+    "description": "QR menus, tablet ordering, and KOT systems for restaurants and cloud kitchens. Streamline operations and boost revenue.",
+    "heroCta": "Explore F&B Solutions",
+    "valueProps": [
+      "Contactless dining solutions",
+      "Kitchen order optimization",
+      "Multi-location management",
+      "Revenue growth tools"
+    ]
+  },
+  "property-developers": {
+    "title": "Smart Building Automation",
+    "subtitle": "Future-Proof Your Properties",
+    "description": "Complete GRMS solutions for amenities, common areas, ambient lighting, and landscaping automation.",
+    "heroCta": "Explore Property Solutions",
+    "valueProps": [
+      "Comprehensive building automation",
+      "Ambient light & landscaping control",
+      "Common area management",
+      "Property value enhancement"
+    ]
+  }
+}
+

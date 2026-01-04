@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Default theme (Hotels) */
+  --background: #FAF8F3;
+  --foreground: #2C2C2C;
+  --color-primary: #0A2540;
+  --color-secondary: #D4AF37;
+  --color-accent: #800020;
+  --text-primary: #2C2C2C;
+  --text-secondary: #6B6B6B;
+  --color-border: #E8D5A3;
+  --radius: 12px;
+  --font-heading: 'Playfair Display', 'Cormorant Garamond', serif;
+  --font-body: 'Inter', 'Lato', sans-serif;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+[data-theme="hotels"] {
+  --background: #FAF8F3;
+  --foreground: #2C2C2C;
+  --color-primary: #0A2540;
+  --color-secondary: #D4AF37;
+  --color-accent: #800020;
+  --text-primary: #2C2C2C;
+  --text-secondary: #6B6B6B;
+  --color-border: #E8D5A3;
+  --radius: 12px;
+  --font-heading: 'Playfair Display', 'Cormorant Garamond', serif;
+  --font-body: 'Inter', 'Lato', sans-serif;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+[data-theme="hospitals"] {
+  --background: #FFFFFF;
+  --foreground: #1A1A1A;
+  --color-primary: #0066CC;
+  --color-secondary: #008B8B;
+  --color-accent: #6BCB77;
+  --text-primary: #1A1A1A;
+  --text-secondary: #5A5A5A;
+  --color-border: #E6F2FF;
+  --radius: 8px;
+  --font-heading: 'Poppins', 'Montserrat', sans-serif;
+  --font-body: 'Source Sans Pro', 'Open Sans', sans-serif;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+[data-theme="f-and-b"] {
+  --background: #FFF8F0;
+  --foreground: #2C1810;
+  --color-primary: #FF6B35;
+  --color-secondary: #C41E3A;
+  --color-accent: #FFB800;
+  --text-primary: #2C1810;
+  --text-secondary: #5C4A3A;
+  --color-border: #FFE5D9;
+  --radius: 16px;
+  --font-heading: 'Bebas Neue', 'Oswald', sans-serif;
+  --font-body: 'Nunito', 'Roboto', sans-serif;
+  --shadow-sm: 0 4px 12px rgba(255, 107, 53, 0.12);
+  --shadow-md: 0 8px 24px rgba(255, 107, 53, 0.15);
+  --shadow-lg: 0 12px 40px rgba(255, 107, 53, 0.2);
+}
+
+[data-theme="property-developers"] {
+  --background: #F5F7FA;
+  --foreground: #1A252F;
+  --color-primary: #2C3E50;
+  --color-secondary: #5D6D7E;
+  --color-accent: #3498DB;
+  --text-primary: #1A252F;
+  --text-secondary: #566573;
+  --color-border: #D5DBDB;
+  --radius: 6px;
+  --font-heading: 'Raleway', 'Work Sans', sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --shadow-sm: 0 2px 8px rgba(44, 62, 80, 0.08);
+  --shadow-md: 0 4px 16px rgba(44, 62, 80, 0.12);
+  --shadow-lg: 0 8px 32px rgba(44, 62, 80, 0.16);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+

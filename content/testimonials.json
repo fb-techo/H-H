@@ -1,0 +1,67 @@
+{
+  "hotels": [
+    {
+      "name": "Sarah Chen",
+      "role": "General Manager",
+      "company": "Luxury Grand Hotel",
+      "quote": "H&H's GRMS transformed our guest experience. The seamless PMS integration and intuitive controls have become a key differentiator for our property.",
+      "rating": 5
+    },
+    {
+      "name": "Michael Rodriguez",
+      "role": "Hotel Owner",
+      "company": "Boutique Collection",
+      "quote": "Energy savings and guest satisfaction improved dramatically. Our guests love the modern room controls, and we love the operational efficiency.",
+      "rating": 5
+    }
+  ],
+  "hospitals": [
+    {
+      "name": "Dr. Emily Watson",
+      "role": "Chief Nursing Officer",
+      "company": "Metro General Hospital",
+      "quote": "The nurse call system has streamlined our operations significantly. Response times improved by 40%, and patient satisfaction scores are at an all-time high.",
+      "rating": 5
+    },
+    {
+      "name": "James Park",
+      "role": "Hospital Administrator",
+      "company": "Regional Medical Center",
+      "quote": "Reliable, intuitive, and compliant. H&H's healthcare solutions integrate seamlessly with our existing systems and improve patient safety.",
+      "rating": 5
+    }
+  ],
+  "f-and-b": [
+    {
+      "name": "Chef Maria Santos",
+      "role": "Restaurant Owner",
+      "company": "Bella Vista Restaurant Group",
+      "quote": "QR menus and tablet ordering transformed our service model. We've reduced wait times and increased table turnover while maintaining excellent service quality.",
+      "rating": 5
+    },
+    {
+      "name": "David Kim",
+      "role": "Operations Manager",
+      "company": "Cloud Kitchen Network",
+      "quote": "The KOT system streamlined our multi-brand cloud kitchen operations. Order accuracy improved, and we can now manage multiple brands efficiently from one location.",
+      "rating": 5
+    }
+  ],
+  "property-developers": [
+    {
+      "name": "Robert Thompson",
+      "role": "Development Director",
+      "company": "Premier Properties Group",
+      "quote": "H&H's smart building solutions became a major selling point for our luxury developments. The ambient lighting and landscaping automation set us apart in the market.",
+      "rating": 5
+    },
+    {
+      "name": "Lisa Anderson",
+      "role": "Property Manager",
+      "company": "Elite Residential Communities",
+      "quote": "Common area automation and energy management have reduced operational costs by 30%. Residents appreciate the modern amenities and convenience.",
+      "rating": 5
+    }
+  ]
+}
+

@@ -1,0 +1,107 @@
+{
+  "hotels": [
+    {
+      "id": "grms",
+      "name": "GRMS (Guest Room Management System)",
+      "description": "Centralized control units integrated with Oracle/Opera PMS for complete room automation.",
+      "features": ["PMS Integration", "Energy Management", "Room Control", "Analytics"]
+    },
+    {
+      "id": "control-interfaces",
+      "name": "Control Interfaces",
+      "description": "Smart Touch Panels, Bedside Panels, Thermostat Panels, and Bathroom Panels.",
+      "features": ["Touch Panels", "Bedside Controls", "Climate Control", "Bathroom Integration"]
+    },
+    {
+      "id": "dnd-mur",
+      "name": "DND/MUR Panels",
+      "description": "Do Not Disturb and Make Up Room panels for efficient housekeeping operations.",
+      "features": ["Service Requests", "Housekeeping Integration", "Privacy Controls"]
+    },
+    {
+      "id": "digital-signage",
+      "name": "Digital Signage",
+      "description": "Dynamic displays for information, wayfinding, and marketing throughout your property.",
+      "features": ["Content Management", "Multi-zone Display", "Real-time Updates"]
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "nurse-call",
+      "name": "Nurse Call Systems",
+      "description": "Reliable communication systems connecting patients with nursing staff.",
+      "features": ["Emergency Response", "Staff Integration", "Multi-zone Coverage"]
+    },
+    {
+      "id": "panic-alarms",
+      "name": "Panic Alarms",
+      "description": "Emergency alert systems for immediate staff response in critical situations.",
+      "features": ["Instant Alerts", "Location Tracking", "Integration Ready"]
+    },
+    {
+      "id": "handicap-alarms",
+      "name": "Handicap Toilet Alarms",
+      "description": "Accessible alarm systems for handicap-accessible facilities.",
+      "features": ["ADA Compliant", "Easy Activation", "Reliable Response"]
+    },
+    {
+      "id": "hospital-signage",
+      "name": "Digital Signage",
+      "description": "Healthcare-focused digital displays for information and wayfinding.",
+      "features": ["Patient Information", "Wayfinding", "Emergency Updates"]
+    }
+  ],
+  "f-and-b": [
+    {
+      "id": "qr-menus",
+      "name": "QR Code Menus",
+      "description": "Contactless menu access via QR codes with real-time menu updates.",
+      "features": ["Contactless", "Real-time Updates", "Multi-language", "Analytics"]
+    },
+    {
+      "id": "tablet-ordering",
+      "name": "Tablet Ordering Systems",
+      "description": "Tablet-based ordering solutions for seamless dining experiences.",
+      "features": ["Table-side Ordering", "Payment Integration", "Order Tracking"]
+    },
+    {
+      "id": "kot-systems",
+      "name": "KOT (Kitchen Order Ticket) Systems",
+      "description": "Efficient kitchen order management for restaurants and cloud kitchens.",
+      "features": ["Order Management", "Kitchen Display", "Multi-location", "Analytics"]
+    },
+    {
+      "id": "cloud-kitchen",
+      "name": "Cloud Kitchen Management",
+      "description": "Complete management solutions for cloud kitchen operations.",
+      "features": ["Multi-brand", "Delivery Integration", "Inventory Management"]
+    }
+  ],
+  "property-developers": [
+    {
+      "id": "grms-property",
+      "name": "GRMS for Properties",
+      "description": "Complete guest room management for residential and commercial properties.",
+      "features": ["Common Areas", "Amenity Control", "Energy Management"]
+    },
+    {
+      "id": "ambient-lighting",
+      "name": "Ambient Light Automation",
+      "description": "Intelligent lighting systems for ambiance and energy efficiency.",
+      "features": ["Scene Control", "Energy Saving", "Scheduling", "Integration"]
+    },
+    {
+      "id": "landscaping",
+      "name": "Landscaping Automation",
+      "description": "Automated irrigation and landscaping control systems.",
+      "features": ["Irrigation Control", "Water Management", "Scheduling", "Monitoring"]
+    },
+    {
+      "id": "common-areas",
+      "name": "Common Area Management",
+      "description": "Centralized control for lobbies, pools, gyms, and shared spaces.",
+      "features": ["Centralized Control", "Energy Management", "Access Control"]
+    }
+  ]
+}
+
