@@ -97,7 +97,7 @@ export default function TestimonialCarousel() {
                 ))}
               </div>
               <p className="text-text-secondary mb-6 leading-relaxed text-lg italic">
-                "{testimonial.quote}"
+                &ldquo;{testimonial.quote}&rdquo;
               </p>
               <div>
                 <p className="font-bold text-text-primary">{testimonial.name}</p>

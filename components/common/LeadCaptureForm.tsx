@@ -47,7 +47,7 @@ export default function LeadCaptureForm() {
   if (isSubmitted) {
     return (
       <div className="p-8 bg-green-50 border-2 border-green-200 rounded-lg text-center" style={{ borderRadius: "var(--radius)" }}>
-        <p className="text-green-800 text-lg font-medium">Thank you! We'll be in touch soon.</p>
+        <p className="text-green-800 text-lg font-medium">Thank you! We&apos;ll be in touch soon.</p>
       </div>
     );
   }
