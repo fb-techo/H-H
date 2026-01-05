@@ -27,21 +27,18 @@ export default function LeadCaptureForm() {
   const onSubmit = async (data: LeadCaptureFormData) => {
     setIsSubmitting(true);
     try {
-      const response = await fetch("/api/leads", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
-
-      if (response.ok) {
-        setIsSubmitted(true);
-        reset();
-        setTimeout(() => setIsSubmitted(false), 5000);
-      }
+      // For static export (GitHub Pages), forms should use external services
+      // This is a placeholder - replace with Formspree, FormSubmit, or EmailJS
+      console.log("Form submission (static export - use external service):", data);
+      
+      // Simulate successful submission for now
+      // TODO: Replace with actual form service integration
+      setIsSubmitted(true);
+      reset();
+      setTimeout(() => setIsSubmitted(false), 5000);
     } catch (error) {
       console.error("Error submitting form:", error);
+      alert("There was an error submitting the form. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
